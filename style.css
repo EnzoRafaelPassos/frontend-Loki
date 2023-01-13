@@ -19,8 +19,12 @@
 
 }
 
+.text-title{
+    font-size: 50px;
+}
+
 .text-sub-title {
-    margin-bottom: 10vh;
+    margin-bottom: 8vh;
 }
 
 .background-black {
@@ -35,7 +39,7 @@
     font-family: 'B612', sans-serif;
     text-align: center;
     padding-top: 50px;
-
+    
 }
 
 
@@ -47,7 +51,7 @@
     font-family: 'B612', sans-serif;
     position: absolute;
     top: 85vh;
-    
+
 }
 
 .time-watch {
@@ -80,6 +84,7 @@
     height: 20px;
     width: 20px;
 }
+
 .body-gray {
     position: absolute;
     top: 95%;
@@ -96,15 +101,17 @@
 
 
 .content-row {
-    width: 100%;
     height: 1px;
     left: 24px;
     top: 641px;
     background: rgba(196, 196, 196, 0.08);
+    margin: 10px;
 }
 
 .content-actions {
     display: flex;
+    padding-top: 30px;
+    justify-content: space-evenly;
 }
 
 .button-watch-now,
@@ -119,24 +126,37 @@
 }
 
 .button-watch-now {
-   background-color: #0072D2;
+    background-color: #0072D2;
 }
 
 .button-watch-trailler {
-background-color: #131318;
-}
-
-.content-desriptions{
-    margin: 10px;
+    background-color: #131318;
 }
 
 .descriptions {
-    width: 250px;
-    height: 100px;
-    margin: 0px;
+    padding: 20px;
 }
 
-@media screen and (min-width:720px) {}
+
+
+@media screen and (min-width:720px) {
+
+    .button-watch-now,
+    .button-watch-trailler {
+        width: 230px;
+        height: 50px;
+        font-size: 15px;
+
+    }
+
+    .body-gray {
+        position: absolute;
+        top: 97%;
+        width: 100%;
+        height: 250px;
+    }
+
+}
 
 @media screen and (min-width:1024px) {}
 
