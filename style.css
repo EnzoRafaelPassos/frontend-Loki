@@ -50,8 +50,7 @@
     justify-content: center;
     font-family: 'B612', sans-serif;
     position: absolute;
-    top: 85vh;
-
+    top: 83vh;
 }
 
 .time-watch {
@@ -110,17 +109,16 @@
 
 .content-actions {
     display: flex;
-    padding-top: 30px;
     justify-content: space-evenly;
 }
 
 .button-watch-now,
 .button-watch-trailler {
-    width: 130px;
-    height: 30px;
+    width: 120px;
+    height: 35px;
     border: none;
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     margin: 10px;
     border-radius: 3px;
 }
