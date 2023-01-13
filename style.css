@@ -42,10 +42,12 @@
 
 .content-informations {
     display: flex;
+    width: 100%;
     justify-content: center;
     font-family: 'B612', sans-serif;
-    position: relative;
+    position: absolute;
     top: 85vh;
+    
 }
 
 .time-watch {
